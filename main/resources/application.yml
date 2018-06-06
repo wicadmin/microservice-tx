@@ -1,0 +1,18 @@
+# Spring properties
+spring:
+  application:
+     name: account-microservice
+
+
+# Server configuration
+server:
+  context-path: /micro
+  port: 8080
+
+
+# Cloudant Configuration
+cloudant:
+    db: atmdb-sds
+    username: 8a498aa9-ab5a-410e-a64d-544bc1d17170-bluemix
+    password: c9a6a409c952d91660bb97bd411afd459d591b851e6384e4819a382771ecbfb3
+    url: https://8a498aa9-ab5a-410e-a64d-544bc1d17170-bluemix:c9a6a409c952d91660bb97bd411afd459d591b851e6384e4819a382771ecbfb3@8a498aa9-ab5a-410e-a64d-544bc1d17170-bluemix.cloudant.com
